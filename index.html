@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Avaliação Terapêutica</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Avaliação Terapêutica</h1>
+
+    <div id="escolha">
+      <p>Qual avaliação você deseja realizar?</p>
+      <button onclick="iniciarAvaliacao('tdah')">TDAH</button>
+      <button onclick="iniciarAvaliacao('autismo')">Autismo</button>
+    </div>
+
+    <div id="questionario" class="hidden">
+      <p id="pergunta"></p>
+      <div class="botoes hidden" id="botoes">
+        <button onclick="responder('sim')">Sim</button>
+        <button onclick="responder('nao')">Não</button>
+      </div>
+    </div>
+
+    <div id="resultado" class="hidden"></div>
+  </div>
+  <div id="reiniciar" class="hidden">
+    <button onclick="reiniciar()">Reiniciar Avaliação</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

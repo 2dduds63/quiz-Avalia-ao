@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #88c9f9, #eed953, #a13f3f, #022e14);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+.container {
+  background-color: rgb(63, 127, 216);
+  max-width: 500px;
+  width: 90%;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgb(255, 4, 4);
+  text-align: center;
+
+  /* Centraliza a caixa branca no centro da tela */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:nth-child(1) {
+  background-color: #273ba1;
+  color: rgb(255, 255, 255);
+}
+
+button:nth-child(2) {
+  background-color: #f44336;
+  color: rgb(255, 255, 255);
+}
+
+.hidden {
+  display: none;
+}
+
+#questionario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#pergunta {
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+#reiniciar button {
+    background-color: #2196F3;
+color: white;
+margin-top: 20px;
+}
