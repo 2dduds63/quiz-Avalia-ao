@@ -12,6 +12,18 @@ const perguntas = {
     "Ele fala pouco ou tem atraso na linguagem?",
     "Ele demonstra interesse intenso por temas específicos?",
     "Seu filho tem dificuldade em lidar com mudanças na rotina?"
+  ],
+  down_tdah_autismo: [
+    "Seu filho demonstra dificuldade em manter a atenção durante brincadeiras ou tarefas simples?",
+    "Ele se distrai facilmente com sons, objetos ou pessoas ao redor?",
+    "Costuma repetir movimentos como balançar as mãos ou girar objetos por muito tempo?",
+    "Seu filho responde quando é chamado pelo nome?",
+    "Ele compreende e responde a instruções simples do dia a dia?",
+    "Demonstra interesse em brincar com outras crianças ou prefere brincar sozinho?",
+    "Tem dificuldade em aceitar mudanças na rotina ou em novos ambientes?",
+    "Fala pouco para a idade ou apresenta dificuldades na articulação das palavras?",
+    "Apresenta comportamentos impulsivos, como correr sem motivo ou interromper os outros com frequência?",
+    "Demonstra sensibilidade exagerada a sons, luzes ou texturas de roupas/comidas?"
   ]
 };
 
